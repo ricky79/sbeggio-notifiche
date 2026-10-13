@@ -90,3 +90,19 @@ Cambiare la coppia VAPID invalida tutte le iscrizioni: la PWA deve rifarle.
 Con `observability` attivo i log sono in *Workers & Pages → sbeggio-notifiche → Logs*. Ogni giro con avvisi
 scaduti registra `{ evento: "giro", letti, inviato, scaduta, riprova, scarta, errori }`; ogni invio
 `{ evento: "invio", id, azione, esito, status, tentativi }`. Endpoint e chiavi non finiscono mai nei log.
+
+## Licenza
+
+Copyright (C) 2026 Riccardo Oliosi
+
+sbeggio-notifiche è software libero: puoi ridistribuirlo e modificarlo secondo i termini della
+[GNU Affero General Public License](LICENSE) pubblicata dalla Free Software Foundation, versione 3 o (a tua
+scelta) qualunque versione successiva. È distribuito sperando che sia utile, ma **senza alcuna garanzia**,
+nemmeno quella implicita di commerciabilità o di idoneità a uno scopo particolare: i dettagli sono nella
+licenza.
+
+Rispetto alla GPL, la AGPL vale anche per chi offre il servizio in rete: chi fa girare una versione modificata
+deve rendere disponibile il codice sorgente anche agli utenti che la usano solo attraverso la rete. Il
+sorgente del servizio su `notifiche.sbeggio.app` è questo repository.
+
+Il nome **Sbeggio** e il logo non sono coperti dalla licenza.
